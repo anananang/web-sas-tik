@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kekurangan Media Sosial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ff7b7b;
+            background-image: url(Intermediate\ Pusat\ Poster.png);
+        }
+
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #5f9e51;
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .header img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 200px auto 20px auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Abstract */
+        .a-container {
+            flex: 2;
+            background-color: hsl(116, 22%, 30%);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        .a-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #15ae46;
+        }
+
+        .a-text {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            background-color: rgb(70, 174, 105);
+            border-radius: 8px;
+        }
+
+
+        .sidebar {
+            flex: 1;
+            background-color: hsl(116, 98%, 65%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, #89ffb0, #31f168);
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            top: 10px;
+        }
+
+        .home-button:hover {
+            background: linear-gradient(45deg, #89ffb0, #31f168);
+            transform: scale(1.05);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin-top: 180px;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Kekurangan Media Sosial</h1>
+        <nav>
+            <a href="index.html" class="home-button">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="a-container">
+            <h2 class="a-title">Kekurangan Media Sosial</h2>
+            <p class="a-text"><b>1. Penyebaran Informasi Palsu (Hoaks)
+                </b><br>Salah satu resiko terbesar dari media sosial adalah penyebaran informasi palsu atau hoaks.
+                Karena informasi dapat menyebar dengan sangat cepat, berita yang tidak benar sering kali diterima dan
+                dipercaya oleh masyarakat sebelum dilakukan verifikasi. Hal ini dapat menimbulkan kesalahpahaman,
+                kepanikan, bahkan konflik sosial.
+            </p>
+            <p class="a-text">
+                <b>2. Kecanduan dan Pemborosan Waktu
+                </b><br>Banyak pengguna media sosial yang menghabiskan waktu berlebihan untuk scrolling tanpa tujuan
+                jelas. Hal ini dapat mengurangi produktivitas, mengganggu aktivitas sehari-hari, dan bahkan menyebabkan
+                kecanduan digital. Beberapa studi menunjukkan bahwa penggunaan media sosial yang berlebihan dapat
+                berdampak negatif pada kesehatan mental.
+            </p>
+            <p class="a-text">
+                <b>3. Cyberbullying dan Tekanan Sosial
+                </b><br>Media sosial sering digunakan sebagai sarana untuk perundungan siber (cyberbullying), terutama
+                di kalangan remaja. Komentar negatif, ejekan, dan serangan pribadi dapat berdampak buruk pada kesehatan
+                mental seseorang. Selain itu, tekanan sosial untuk menunjukkan kehidupan yang "sempurna" di media sosial
+                juga dapat menyebabkan kecemasan dan rendah diri.
+            </p>
+            <p class="a-text">
+                <b>4. Konten Tidak Pantas dan Berbahaya
+                </b><br>Tidak semua konten di media sosial bersifat positif atau edukatif. Banyak pengguna, terutama
+                anak-anak dan remaja, dapat terpapar konten yang tidak sesuai, seperti kekerasan, ujaran kebencian, atau
+                pornografi. Tanpa pengawasan yang tepat, media sosial dapat menjadi lingkungan yang tidak aman bagi
+                kelompok rentan.
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Playlist</h3>
+            <p>Songs to play while you read...</p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/0EgBodxISQPjlB5ZfQqC60?utm_source=generator" width="100%"
+                height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
+
+</body>
+
+</html>

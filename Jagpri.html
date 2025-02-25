@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaga Privasi Akun</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ff99ec;
+            background-image: url(Intermediate\ Pusat\ Poster.png);
+        }
+
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(255, 132, 171);
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .header img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 200px auto 20px auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Abstract */
+        .a-container {
+            flex: 2;
+            background-color: #ff8ad8;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        .a-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #ff127d;
+        }
+
+        .a-text {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: white;
+            padding: 10px;
+            background-color: rgb(199, 97, 97);
+            border-radius: 8px;
+        }
+
+
+        .sidebar {
+            flex: 1;
+            background-color: hsl(337, 91%, 67%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, #ff6bbc, #ff43d6);
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            top: 10px;
+        }
+
+        .home-button:hover {
+            background: linear-gradient(45deg, #ff3ba7, #ff6fe0);
+            transform: scale(1.05);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin-top: 180px;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Jaga Privasi Akun</h1>
+        <nav>
+            <a href="index.html" class="home-button">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="a-container">
+            <h2 class="a-title">Jaga Privasi Akun</h2>
+            <p class="a-text">Menjaga privasi akun adalah langkah pertama yang penting untuk mengamankan informasi
+                pribadi di media sosial. Pengguna sebaiknya mengatur pengaturan privasi agar hanya orang-orang tertentu
+                yang dapat melihat unggahan dan informasi pribadinya. Selain itu, fitur seperti daftar teman terbatas
+                atau kontrol visibilitas unggahan dapat dimanfaatkan untuk membatasi akses pihak yang tidak dikenal.
+                Dengan begitu, risiko penyalahgunaan data pribadi dapat diminimalisir.
+            </p>
+            <p class="a-text">
+
+                Selain itu, pengguna harus berhati-hati dalam memberikan informasi sensitif di media sosial. Informasi
+                seperti alamat rumah, nomor telepon, atau data keuangan sebaiknya tidak diumumkan secara terbuka. Data
+                ini dapat digunakan oleh pihak yang tidak bertanggung jawab untuk berbagai tindakan merugikan, seperti
+                pencurian identitas atau penipuan. Oleh karena itu, membatasi informasi yang dibagikan dapat membantu
+                menjaga keamanan akun serta mengurangi kemungkinan menjadi target kejahatan siber.
+
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Playlist</h3>
+            <p>Songs to play while you read...</p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/0EgBodxISQPjlB5ZfQqC60?utm_source=generator" width="100%"
+                height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
+
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggunaan Media Sosial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #efdaeb;
+            background-image: url(Intermediate\ Pusat\ Poster.png);
+        }
+
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(255, 192, 212);
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .header img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 200px auto 20px auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Abstract */
+        .a-container {
+            flex: 2;
+            background-color: #ffb6e7;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        .a-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #ff2d8b;
+        }
+
+        .a-text {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: white;
+            padding: 10px;
+            background-color: rgb(255, 99, 99);
+            border-radius: 8px;
+        }
+
+
+        .sidebar {
+            flex: 1;
+            background-color: hsl(337, 100%, 82%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, #cd5a99, #ff6fe0);
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            top: 10px;
+        }
+
+        .home-button:hover {
+            background: linear-gradient(45deg, #cd5a99, #ff6fe0);
+            transform: scale(1.05);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin-top: 180px;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Penggunaan Media Sosial</h1>
+        <nav>
+            <a href="index.html" class="home-button">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="a-container">
+            <h2 class="a-title">Penggunaan Media Sosial</h2>
+            <p class="a-text">Media sosial adalah platform online yang memungkinkan pengguna untuk berinteraksi, berbagi
+                informasi, dan terhubung dengan orang lain di seluruh dunia. Banyak orang menggunakan media sosial untuk
+                berbagai keperluan, seperti chatting dengan teman, mencari hiburan, atau mengikuti tren terbaru. Selain
+                itu, media sosial juga sering dimanfaatkan dalam dunia bisnis dan pekerjaan, misalnya untuk promosi
+                produk, membangun branding, atau menjangkau lebih banyak pelanggan. Dengan media sosial, siapa saja bisa
+                mengekspresikan diri, berbagi pengalaman, serta mendapatkan informasi dengan cepat dan mudah.</p>
+            <p class="a-text">
+                Tapi, penggunaan media sosial juga punya tantangan dan risiko. Salah satunya adalah penyebaran informasi
+                yang nggak selalu benar, yang bisa bikin orang mudah termakan hoaks. Selain itu, ada juga masalah
+                privasi, di mana data pribadi bisa bocor kalau nggak hati-hati. Penggunaan media sosial yang berlebihan
+                juga bisa berdampak buruk, seperti kecanduan, mengurangi produktivitas, atau bikin orang merasa kurang
+                percaya diri karena terus membandingkan diri dengan kehidupan orang lain yang terlihat sempurna di
+                internet.
+            </p>
+            <p class="a-text">
+                Karena itu, penting banget buat pakai media sosial dengan bijak. Misalnya, membatasi waktu bermain media
+                sosial supaya nggak kebablasan, lebih berhati-hati dalam memberikan informasi pribadi, dan selalu cek
+                kebenaran berita sebelum menyebarkannya. Selain itu, kita juga harus fokus menggunakan media sosial
+                untuk hal-hal yang positif, seperti belajar hal baru, menjalin hubungan yang baik dengan orang lain,
+                atau bahkan mencari peluang di dunia digital. Kalau digunakan dengan benar, media sosial bisa jadi alat
+                yang bermanfaat dan mendukung berbagai aspek kehidupan.
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Playlist</h3>
+            <p>Songs to play while you read...</p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/0EgBodxISQPjlB5ZfQqC60?utm_source=generator" width="100%"
+                height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
+
+</body>
+
+</html>

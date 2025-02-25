@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Media Sosial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ff7b7b;
+            background-image: url(Intermediate\ Pusat\ Poster.png);
+        }
+
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fc5a5a;
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .header img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 200px auto 20px auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Abstract */
+        .a-container {
+            flex: 2;
+            background-color: #ff7878;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        .a-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #ff0000;
+        }
+
+        .a-text {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: white;
+            padding: 10px;
+            background-color: rgb(174, 70, 70);
+            border-radius: 8px;
+        }
+
+
+        .sidebar {
+            flex: 1;
+            background-color: #ff7b7b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, #ff8989, #dc4f4f);
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            top: 10px;
+        }
+
+        .home-button:hover {
+            background: linear-gradient(45deg, #ff8989, #dc4f4f);
+            transform: scale(1.05);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin-top: 180px;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Contoh Media Sosial</h1>
+        <nav>
+            <a href="index.html" class="home-button">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="a-container">
+            <h2 class="a-title">Contoh Media Sosial</h2>
+            <p class="a-text"><b>1. Instagram</b><br>Instagram adalah aplikasi media sosial populer yang memungkinkan
+                pengguna berbagi foto, video, dan reels dengan berbagai filter digital. Sejak diluncurkan pada 2010
+                dengan 25.000 pendaftar awal, Instagram terus berkembang hingga memiliki sekitar 2,4 miliar pengguna
+                aktif. Fitur-fitur menarik seperti Instagram Story, IGTV, dan kemudahan berjejaring membuatnya diminati
+                oleh berbagai kalangan, dari anak-anak hingga pebisnis. Popularitasnya yang terus meroket menjadikannya
+                sejajar dengan platform besar seperti Facebook dan Twitter.
+            </p>
+            <p class="a-text">
+                <b>2. TikTok</b><br>TikTok adalah aplikasi media sosial dan platform video musik yang memungkinkan
+                pengguna membuat, mengedit, dan membagikan video pendek dengan berbagai filter, musik, dan fitur
+                kreatif. Dengan antarmuka sederhana dan algoritma rekomendasi canggih, TikTok menjadi wadah bagi
+                kreativitas dan hiburan, di mana konten mudah viral serta menjangkau banyak orang. Pengguna dapat
+                mengunggah video hingga 3 menit, menjadikannya platform efektif untuk berbagi tren, tantangan, dan ide
+                baru.
+            </p>
+            <p class="a-text">
+                <b>3. Youtube</b><br>Aplikasi dan situs web berbagi video ini adalah platform populer yang memungkinkan
+                pengguna menonton, membuat, dan membagikan video secara gratis dalam berbagai kategori, seperti hiburan,
+                edukasi, dan vlog. Selain menonton, pengguna dapat mengunggah video sendiri serta berinteraksi melalui
+                komentar, like, dan subscribe, sehingga menciptakan komunitas yang aktif antara kreator dan penonton.
+            </p>
+            <p class="a-text">
+                <b>4. Facebook</b><br>Facebook adalah jejaring sosial yang memungkinkan pengguna membuat profil dengan
+                foto dan informasi, serta berinteraksi melalui postingan dan komunitas. Dengan fitur grup, pengguna
+                dapat bergabung dengan orang-orang yang memiliki minat yang sama, berdiskusi, dan membangun koneksi
+                secara global, menjadikannya platform yang mendukung interaksi dan berbagi momen secara digital.
+            </p>
+            <p class="a-text">
+                <b>5. X (Twitter)</b><br>X adalah aplikasi yang memungkinkan pengguna tetap terhubung melalui pesan,
+                foto, video, dan teks yang dapat dibagikan di profil mereka serta diikuti oleh pengikut. Dengan fitur
+                interaksi seperti komentar, suka, dan berbagi ulang, pengguna dapat berpartisipasi dalam diskusi serta
+                menemukan topik dan tren terbaru melalui fitur pencarian. Selain sebagai sarana komunikasi, X juga
+                berfungsi sebagai platform berbagi gagasan dan membangun komunitas digital.
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Playlist</h3>
+            <p>Songs to play while you read...</p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/0EgBodxISQPjlB5ZfQqC60?utm_source=generator" width="100%"
+                height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
+
+</body>
+
+</html>

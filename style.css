@@ -1,0 +1,127 @@
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e5ee;
+    text-align: center;
+    color: #fffafa;
+    background-image: url(ha.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+h1 {
+    color: #204175;
+    font-size: 2em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px #ffffffee;
+    background-color: rgb(209, 234, 245);
+}
+
+/* Navigasi */
+nav {
+    background-color: rgb(254, 147, 166);
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff9f9;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #555;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(220, 144, 144, 0.95);
+    min-width: 220px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px 0;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-content a {
+    color: rgb(251, 250, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f4eaea;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Gambar */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-image {
+    max-width: 30%;
+    height: auto;
+    border: 2px solid #b1d0e9;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.main-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(255, 254, 254, 0.914);
+}
+
+/* Footer */
+footer {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+
+footer img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}

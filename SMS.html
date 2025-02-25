@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Media Sosial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2ff7b;
+            background-image: url(Intermediate\ Pusat\ Poster.png);
+        }
+
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #edff4a;
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .header img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+        }
+
+        /* Kontainer Utama */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 200px auto 20px auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        /* Abstract */
+        .a-container {
+            flex: 2;
+            background-color: #f2ff7b;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+            max-height: 500px;
+        }
+
+        .a-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffa319;
+        }
+
+        .a-text {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+            color: white;
+            padding: 10px;
+            background-color: rgb(219, 219, 87);
+            border-radius: 8px;
+        }
+
+
+        .sidebar {
+            flex: 1;
+            background-color: #f2ff7b;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .home-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: white;
+            background: linear-gradient(45deg, #dcff5d, #bedc4f);
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            top: 10px;
+        }
+
+        .home-button:hover {
+            background: linear-gradient(45deg, #dcff5d, #bedc4f);
+            transform: scale(1.05);
+            box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin-top: 180px;
+            }
+
+            .sidebar {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Sejarah Media Sosial</h1>
+        <nav>
+            <a href="index.html" class="home-button">Home</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="a-container">
+            <h2 class="a-title">Sejarah Media Sosial</h2>
+            <p class="a-text">Media sosial memiliki sejarah panjang yang dimulai sejak era telegraf oleh Samuel Morse
+                pada 1844 dan berkembang pesat dengan hadirnya Arpanet pada 1969, yang menjadi cikal bakal internet
+                modern. Pada 1990-an, ketika internet mulai dikenal luas, platform komunikasi digital seperti ICQ, AOL
+                Instant Messenger, dan Yahoo Messenger memungkinkan orang untuk berbincang secara daring. Kemudian,
+                muncul situs seperti Six Degrees (1997), Friendster (2001), dan Myspace (2003), yang memperkenalkan
+                konsep profil pengguna dan jaringan sosial secara daring. Era ini menandai awal mula media sosial yang
+                semakin berkembang hingga sekarang. </p>
+            <p class="a-text">
+                Memasuki abad ke-21, media sosial mengalami pertumbuhan pesat dengan munculnya berbagai platform baru.
+                Facebook, yang diluncurkan pada 2004, dengan cepat menjadi media sosial terbesar di dunia, diikuti oleh
+                Twitter yang memungkinkan pengguna berbagi pembaruan singkat. LinkedIn menjadi platform profesional yang
+                sukses, sementara Instagram (2010) dan TikTok (2016) menghadirkan pengalaman berbagi foto dan video yang
+                semakin menarik. Meskipun Google sempat mencoba peruntungannya dengan Google+ pada 2012, platform ini
+                gagal bersaing dan akhirnya ditutup. Persaingan di dunia media sosial semakin ketat, dengan
+                masing-masing platform menghadirkan fitur unik untuk menarik pengguna.
+            </p>
+            <p class="a-text">
+                Saat ini, media sosial telah menjadi bagian penting dalam kehidupan sehari-hari, tidak hanya untuk
+                komunikasi dan hiburan, tetapi juga dalam bisnis, pendidikan, dan penyebaran informasi. Berbagai
+                aplikasi seperti WhatsApp, Snapchat, dan TikTok memungkinkan berbagi momen secara instan, sementara
+                algoritma canggih terus dikembangkan untuk meningkatkan pengalaman pengguna. Namun, pesatnya
+                perkembangan media sosial juga menghadirkan tantangan, seperti penyebaran berita palsu dan isu privasi.
+                Oleh karena itu, penting bagi pengguna untuk memanfaatkan media sosial secara bijak agar dapat merasakan
+                manfaatnya tanpa terkena dampak negatif.
+            </p>
+        </div>
+        <div class="sidebar">
+            <h3>Playlist</h3>
+            <p>Songs to play while you read...</p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/0EgBodxISQPjlB5ZfQqC60?utm_source=generator" width="100%"
+                height="380" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
+
+</body>
+
+</html>

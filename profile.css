@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    background-image: url(Intermediate\ Pusat\ Poster.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(238, 127, 171);
+}
+/* Style untuk Home Button */
+.home-button {
+    display: inline-block;
+    background-color: #fac8db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background-color: #45a049;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.profile-card {
+    background: rgb(254, 199, 224);
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.profile-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #33061c;
+}
+
+.profile-card p {
+    font-size: 14px;
+    color: #777;
+}
